@@ -1,0 +1,1 @@
+Please provide a negative prompt in 60 words for a text-to-image diffusion that prevents distortion or Not Safe For Work images. Example prompts include "deformed," "blurry," and "poorly drawn," among others.
