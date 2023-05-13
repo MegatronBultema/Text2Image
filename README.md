@@ -7,12 +7,12 @@ For this project the stable diffusion model is fine-tuned using LoRA (Low-Rank A
 
 Once the fine-tuned model is available images are generated using prompts created by an API call to ChatGPT. In the ChatGPT prompts used here we have included examples of positive and negative prompts pulled from the original models website examples. This was found to improve the image quality resulting from the ChatGPT prompts. ChatGPT was also called to create negative prompts, given examples, and an image title used to save the images and prompts. 
 
-Not included in this repo are the model files (over 2GB) and scripts referenced from the [Huggingface Diffusers repo](https://github.com/huggingface/diffusers/tree/main). 
-Workflow:
-    * Origninal model (titled: deliberate) was downloaded from [CivitAI](https://civitai.com/models/4823/deliberate)
-    * Model was converted from .safetensors to diffusers format using ConvertModel.ipynb
-    * Download image examples and fine-tune the model with the LoRA style of fine-tuning using functions in TrainingWithLoRA.ipynb
-    * Use the original and fine-tuned model to generate images and use the ChatGPT api to embelish simple prompts using functions in GenerateImageChatGPT.ipynb
+Not included in this repo are the model files (over 2GB) and scripts referenced from the [Huggingface Diffusers](https://github.com/huggingface/diffusers/tree/main) repo. \
+Workflow:\
+     1. Origninal model (titled: deliberate) was downloaded from [CivitAI](https://civitai.com/models/4823/deliberate)\
+     2. Model was converted from .safetensors to diffusers format using ConvertModel.ipynb\
+     3. Download image examples and fine-tune the model with the LoRA style of fine-tuning using functions in TrainingWithLoRA.ipynb\
+     4. Use the original and fine-tuned model to generate images and use the ChatGPT api to embelish simple prompts using functions in GenerateImageChatGPT.ipynb\
 
 
 
