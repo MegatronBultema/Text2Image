@@ -9,10 +9,10 @@ Once the fine-tuned model is available images are generated using prompts create
 
 Not included in this repo are the model files (over 2GB) and scripts referenced from the [Huggingface Diffusers repo](https://github.com/huggingface/diffusers/tree/main). 
 Workflow:
-    *Origninal model (titled: deliberate) was downloaded from [CivitAI](https://civitai.com/models/4823/deliberate)
-    *Model was converted from .safetensors to diffusers format using ConvertModel.ipynb
-    *Download image examples and fine-tune the model with the LoRA style of fine-tuning using functions in TrainingWithLoRA.ipynb
-    *Use the original and fine-tuned model to generate images and use the ChatGPT api to embelish simple prompts using functions in GenerateImageChatGPT.ipynb
+    * Origninal model (titled: deliberate) was downloaded from [CivitAI](https://civitai.com/models/4823/deliberate)
+    * Model was converted from .safetensors to diffusers format using ConvertModel.ipynb
+    * Download image examples and fine-tune the model with the LoRA style of fine-tuning using functions in TrainingWithLoRA.ipynb
+    * Use the original and fine-tuned model to generate images and use the ChatGPT api to embelish simple prompts using functions in GenerateImageChatGPT.ipynb
 
 
 
