@@ -1,0 +1,4 @@
+'distorted face, disfigured, poorly drawn, bad anatomy, wrong anatomy, extra limb, missing limb, blurry, gross proportions, 
+ugly, disgusting, mutated, mutation, deformed, blemish, badly rendered, out of frame, tiling, bad art, black and white, sepia, 
+watermarked, oversized, undersized, pixelated, low quality, poorly lit, badly composed, too close up, weird colors, 
+cloned image, NSFW, nudity, indecent, inappropriate'

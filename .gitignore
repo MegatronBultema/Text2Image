@@ -1,1 +1,11 @@
+text2image/real_reg/simpsons2/
+text2image/real_reg/*
+text2image/converted_model_deliberate/
+text2image/deliberate_AnselAdams/
+text2image/deliberate_simpsons/
+text2image/deliberate_simpsons200/
+text2image/deliberate_simpsons200test/
+text2image/deliberate_v2.safetensors
+text2image/real_reg/
+text2image/delibrate*
 hackingtogether-megan/
